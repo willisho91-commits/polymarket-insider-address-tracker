@@ -4,12 +4,12 @@
     "copy_multiplier": 1.0,
     "notes": "High win rate on political markets"
   },
-  "0xWALLET_ADDRESS_2_HERE": {
+  "0xb2a3bf58e527714ffa8e4de52218186cd658e321": {
     "label": "Insider B",
     "copy_multiplier": 0.5,
     "notes": "Tends to exit early — watch for swing pattern"
   },
-  "0xWALLET_ADDRESS_3_HERE": {
+  "0xdd92232bcdfbbac04132b3cbacbf32c2e5b16b2a": {
     "label": "Degen C",
     "copy_multiplier": 0.25,
     "notes": "High risk, low cap positions"
