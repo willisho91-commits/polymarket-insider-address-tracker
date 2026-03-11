@@ -1,17 +1,52 @@
 {
-  "0x62f2cfa51f5bb138d344cdcfa26090c9184007f8": {
-    "label": "Whale A",
+  "0x44d4c6f385f1b0b738369e5a0b4ae4030e401970": {
+    "label": "Whale 1",
     "copy_multiplier": 1.0,
-    "notes": "High win rate on political markets"
+    "notes": "Polymarket smart wallet"
   },
-  "0xb2a3bf58e527714ffa8e4de52218186cd658e321": {
-    "label": "Insider B",
-    "copy_multiplier": 0.5,
-    "notes": "Tends to exit early — watch for swing pattern"
+  "0xeeb684d0364e193fb9b1d0a096c1d44718c3d982": {
+    "label": "Whale 2",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
   },
-  "0xdd92232bcdfbbac04132b3cbacbf32c2e5b16b2a": {
-    "label": "Degen C",
-    "copy_multiplier": 0.25,
-    "notes": "High risk, low cap positions"
+  "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a": {
+    "label": "Whale 3",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0xac44cb78be973ec7d91b69678c4bdfa7009afbd7": {
+    "label": "Whale 4",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0x0720803c7cb0d0c5a928787b3b7ea148c6831cdb": {
+    "label": "Whale 5",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0xe56526b27b96f009b31ddb46558a134047bfce48": {
+    "label": "Whale 6",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0x054ec2f0ccfdae941886a3ed306635068c716639": {
+    "label": "Whale 7",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0x1d9af60c679cd0b577c3c4ccb4b1a4be4174426d": {
+    "label": "Whale 8",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0xc907f73eade151b451d970d79a39b13a7b18e852": {
+    "label": "Whale 9",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
+  },
+  "0x093209ec1d4baa116a019c9dc63142f3256ccc39": {
+    "label": "Whale 10",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet"
   }
 }
