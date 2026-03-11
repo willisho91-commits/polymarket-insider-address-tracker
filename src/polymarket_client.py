@@ -59,67 +59,122 @@ def get_trades_for_wallet(
     addr = wallet_addr.lower()
     raw_trades: dict[str, dict] = {}
 
-    for role in ("maker_address", "taker_address"):
-        cursor = "MA=="  # CLOB cursor for "start"
-        fetched = 0
+    # ── Primary: Gamma API (public, no auth required) ─────────────────────────
+    # Gamma indexes all Polymarket activity and is queryable by user address.
+    offset  = 0
+    fetched = 0
 
-        while fetched < limit:
-            params = {
-                role:    addr,
-                "limit": min(100, limit - fetched),
+    while fetched < limit:
+        params = {
+            "user":   addr,
+            "limit":  min(100, limit - fetched),
+            "offset": offset,
+        }
+        if since_timestamp:
+            params["after"] = since_timestamp
+
+        try:
+            resp = _session.get(
+                f"{config.GAMMA_API_BASE}/trades",
+                params=params,
+                timeout=config.REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+        except requests.RequestException as exc:
+            log.warning("Gamma /trades error (wallet=%s): %s", addr, exc)
+            break
+
+        if not isinstance(data, list):
+            data = data.get("data") or data.get("trades") or []
+
+        if not data:
+            break
+
+        for raw in data:
+            # Gamma returns a slightly different shape — normalise below
+            trade_id = str(raw.get("id") or raw.get("tradeId") or "")
+            if not trade_id:
+                continue
+
+            side_raw   = (raw.get("side") or raw.get("type") or "").upper()
+            price      = float(raw.get("price") or raw.get("avgPrice") or 0)
+            size       = float(raw.get("size") or raw.get("shares") or 0)
+            match_time = int(raw.get("timestamp") or raw.get("createdAt") or 0)
+            if isinstance(match_time, str):
+                from datetime import datetime, timezone
+                try:
+                    match_time = int(datetime.fromisoformat(
+                        match_time.replace("Z", "+00:00")
+                    ).timestamp())
+                except Exception:
+                    match_time = 0
+
+            if since_timestamp and match_time and match_time <= since_timestamp:
+                continue
+
+            normalised = {
+                "id":         trade_id,
+                "wallet":     addr,
+                "side":       side_raw,
+                "outcome":    raw.get("outcome") or raw.get("side") or "",
+                "price":      price,
+                "size_usdc":  round(price * size, 4),
+                "shares":     size,
+                "token_id":   str(raw.get("asset_id") or raw.get("tokenId") or raw.get("conditionId") or ""),
+                "match_time": match_time,
+                "tx_hash":    raw.get("transactionHash") or raw.get("txHash") or "",
             }
-            if cursor and cursor != "MA==":
-                params["next_cursor"] = cursor
+            raw_trades[trade_id] = normalised
 
+        fetched += len(data)
+        offset  += len(data)
+        if len(data) < 100:
+            break
+        time.sleep(config.INTER_REQUEST_GAP)
+
+    # ── Fallback: CLOB API (may require auth on some endpoints) ───────────────
+    if not raw_trades:
+        for role in ("maker_address", "taker_address"):
+            params = {role: addr, "limit": min(100, limit)}
             try:
                 resp = _session.get(
                     f"{config.CLOB_API_BASE}/trades",
                     params=params,
                     timeout=config.REQUEST_TIMEOUT,
                 )
+                if resp.status_code == 401:
+                    log.debug("CLOB /trades returned 401 — skipping (auth required)")
+                    break
                 resp.raise_for_status()
                 body = resp.json()
+                data = body.get("data") or []
             except requests.RequestException as exc:
-                log.warning("CLOB /trades error (role=%s, wallet=%s): %s", role, addr, exc)
+                log.warning("CLOB /trades fallback error (role=%s): %s", role, exc)
                 break
 
-            data = body.get("data") or []
             for raw in data:
-                # Only keep CONFIRMED trades
                 if raw.get("status", "").upper() != "CONFIRMED":
                     continue
-
-                trade_id   = raw.get("id", "")
-                match_ts   = int(raw.get("match_time", 0) or 0)
-
-                # Filter by timestamp if caller provides one
+                trade_id = raw.get("id", "")
+                match_ts = int(raw.get("match_time", 0) or 0)
                 if since_timestamp and match_ts <= since_timestamp:
                     continue
-
-                # Normalise
-                price    = float(raw.get("price", 0) or 0)
-                size     = float(raw.get("size", 0) or 0)
-                side_raw = raw.get("side", "").upper()
-
+                price = float(raw.get("price", 0) or 0)
+                size  = float(raw.get("size", 0) or 0)
                 normalised = {
                     "id":         trade_id,
                     "wallet":     addr,
-                    "side":       side_raw,              # BUY / SELL
-                    "outcome":    raw.get("outcome", ""), # Yes / No
+                    "side":       raw.get("side", "").upper(),
+                    "outcome":    raw.get("outcome", ""),
                     "price":      price,
-                    "size_usdc":  round(price * size, 4), # approximate USDC value
+                    "size_usdc":  round(price * size, 4),
                     "shares":     size,
                     "token_id":   raw.get("asset_id", raw.get("market", "")),
                     "match_time": match_ts,
                     "tx_hash":    raw.get("transaction_hash", ""),
                 }
                 raw_trades[trade_id] = normalised
-
-            fetched += len(data)
-            cursor = body.get("next_cursor", "")
-            if not cursor or not data:
-                break
-            time.sleep(config.INTER_REQUEST_GAP)
 
     # Sort newest-first
     trades = sorted(raw_trades.values(), key=lambda t: t["match_time"], reverse=True)
