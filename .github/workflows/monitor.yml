@@ -5,7 +5,7 @@ on:
   # GitHub Actions cron minimum is every 5 minutes.
   # Note: under heavy load GitHub may delay runs by 1–5 min.
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
 
   # ── Manual trigger (for testing / one-off runs) ────────────────────────────
   workflow_dispatch:
