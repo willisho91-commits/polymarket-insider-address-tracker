@@ -1,0 +1,27 @@
+{
+  "wallets": {
+    "0xwallet_address_1_here": {
+      "last_checked_ts": 1773196030,
+      "last_block": 0,
+      "seen_trade_ids": [],
+      "positions": {}
+    },
+    "0xwallet_address_2_here": {
+      "last_checked_ts": 1773196031,
+      "last_block": 0,
+      "seen_trade_ids": [],
+      "positions": {}
+    },
+    "0xwallet_address_3_here": {
+      "last_checked_ts": 1773196032,
+      "last_block": 0,
+      "seen_trade_ids": [],
+      "positions": {}
+    }
+  },
+  "meta": {
+    "last_run_ts": 1773196033,
+    "total_alerts": 0,
+    "schema_version": 2
+  }
+}
