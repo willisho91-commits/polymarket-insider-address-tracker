@@ -2,431 +2,547 @@
   "0x44d4c6f385f1b0b738369e5a0b4ae4030e401970": {
     "label": "Whale 1",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xeeb684d0364e193fb9b1d0a096c1d44718c3d982": {
     "label": "Whale 2",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a": {
     "label": "Whale 3",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xac44cb78be973ec7d91b69678c4bdfa7009afbd7": {
     "label": "Whale 4",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x0720803c7cb0d0c5a928787b3b7ea148c6831cdb": {
     "label": "Whale 5",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xe56526b27b96f009b31ddb46558a134047bfce48": {
     "label": "Whale 6",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x054ec2f0ccfdae941886a3ed306635068c716639": {
     "label": "Whale 7",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x1d9af60c679cd0b577c3c4ccb4b1a4be4174426d": {
     "label": "Whale 8",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc907f73eade151b451d970d79a39b13a7b18e852": {
     "label": "Whale 9",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x093209ec1d4baa116a019c9dc63142f3256ccc39": {
     "label": "Whale 10",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc6dd722558dbfbd8fa780efcbe819ed8c6604b9f": {
     "label": "Whale 11",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x8f7fe67a314e709540474e1f08b683c83b98fb3b": {
     "label": "Whale 12",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x73f09e8ded44b82f3388bb5472fc1c41b56d741f": {
     "label": "Whale 13",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x22d53062ca2f41ee15df9b401a523eea73419aeb": {
     "label": "Whale 14",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xdfad2b9038840f3075d5aab108afbf5a97f48cd5": {
     "label": "Whale 15",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xe180458382ef158643637ade5c46e3dbbbf87b76": {
     "label": "Whale 16",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x722b2b7a2917ded628b722eb28b4c55d32cb5184": {
     "label": "Whale 17",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x4e4527e46cba527051a8721f5e668a7877110b99": {
     "label": "Whale 18",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x2974bd0059e48f215c391882976e0f1b4c8c9c23": {
     "label": "Whale 19",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x1caa6a7ad0c6916aef7b67946de2e57ad24846a0": {
     "label": "Whale 20",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee": {
     "label": "Whale 21",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": {
     "label": "Whale 22",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xd25c72ac0928385610611c8148803dc717334d20": {
     "label": "Whale 23",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x96489abcb9f583d6835c8ef95ffc923d05a86825": {
     "label": "Whale 24",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": {
     "label": "Whale 25",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x507e52ef684ca2dd91f90a9d26d149dd3288beae": {
     "label": "Whale 26",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x13414a77a4be48988851c73dfd824d0168e70853": {
     "label": "Whale 27",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": {
     "label": "Whale 28",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x23796015f5159c76921dc869b7f95a7c57e2bf16": {
     "label": "Whale 29",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x9976874011b081e1e408444c579f48aa5b5967da": {
     "label": "Whale 30",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xd0b4c4c020abdc88ad9a884f999f3d8cff8ffed6": {
     "label": "Whale 31",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x63ce342161250d705dc0b16df89036c8e5f9ba9a": {
     "label": "Whale 32",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xf99f21209545865c45961f413b93b8a2c46b8742": {
     "label": "Whale 33",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x2120ea0323fcf5446233056467fdb852b4b12647": {
     "label": "Whale 34",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xe7387473b067235436884d16799777cf279edf65": {
     "label": "Whale 35",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xea7957606f259bcba522a4681494555547a7a9cc": {
     "label": "Whale 36",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xf9939a1e54baa08e4f4d8549f1050f1ee7f6cd9d": {
     "label": "Whale 37",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x37d10ffb61998561c5f9fb941c42c952d8fb4e28": {
     "label": "Whale 38",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": {
     "label": "Whale 39",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xd4bb827c0227774bcde1bd881b36c7d93854a993": {
     "label": "Whale 40",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x05e26c775ecfe91b897d47f134c1bf5900ca6e12": {
     "label": "Whale 41",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xf5be02858d86213b0ac7fc7afbaf12fd5f26195a": {
     "label": "Whale 42",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x962284d3ae323d0313895d97f22755b3b1ff538e": {
     "label": "Whale 43",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x24321d12a64cb847650e306edfe817cfd1243ef5": {
     "label": "Whale 44",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x56efadc9defe5b7a21af751e0d026f2cf54136db": {
     "label": "Whale 45",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x1979ae6b7e6534de9c4539d0c205e582ca637c9d": {
     "label": "Whale 46",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xdde15ebd95330ce69136dc0ccd810d22382e02c5": {
     "label": "Whale 47",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xde7be6d489bce070a959e0cb813128ae659b5f4b": {
     "label": "Whale 48",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x37c94ea1b44e01b18a1ce3ab6f8002bd6b9d7e6d": {
     "label": "Whale 49",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x000d257d2dc7616feaef4ae0f14600fdf50a758e": {
     "label": "Whale 50",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x019782cab5d844f02bafb71f512758be78579f3c": {
     "label": "Whale 51",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x5bffcf561bcae83af680ad600cb99f1184d6ffbe": {
     "label": "Whale 52",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5": {
     "label": "Whale 53",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1": {
     "label": "Whale 54",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xd1acd3925d895de9aec98ff95f3a30c5279d08d5": {
     "label": "Whale 55",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x7744bfd749a70020d16a1fcbac1d064761c9999e": {
     "label": "Whale 56",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177": {
     "label": "Whale 57",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xbad457dc633bbb7b6cbe09dd5867a5e8e597acd7": {
     "label": "Whale 58",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc851cd9bee7d262afd78674f861f9f576a12cd2a": {
     "label": "Whale 59",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x92a6294cd55b9c6ccd57efaffc365ad943118b84": {
     "label": "Whale 60",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x7177a7f5c216809c577c50c77b12aae81f81ddef": {
     "label": "Whale 61",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x34026514e0bda25f0f9fbb053fe3070cdc8c9446": {
     "label": "Whale 62",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc0292a841a0c9a7320aa39075cffcf1b8f64f705": {
     "label": "Whale 63",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f": {
     "label": "Whale 64",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xda9ed03eb10640d411b35b3773c7af9aade1ac09": {
     "label": "Whale 65",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xfb89cae2b8dfe7a71c413e00e4aae1c352f87e44": {
     "label": "Whale 66",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xf75fba84b452103191d963d3f3c06a5a24453c47": {
     "label": "Whale 67",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x9c6b99f1862568a63b38601eefeebe0304225c32f2": {
     "label": "Whale 68",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xee2f0d631c3c37e7274b20d84c14069780d360993aaa": {
     "label": "Whale 69",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x1d8a377c5020f612cc63a8a15197df64baaae842": {
     "label": "Whale 70",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xdf3fedc6c679eb642cd33d39399d04b552d7b3c4": {
     "label": "Whale 71",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc8ab79a90a3da9ff5e8f6d86b8e55a91a0694d18": {
     "label": "Whale 72",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xcfc25f41ed27b178733d82d4c7f51e3a15e1f77f": {
     "label": "Whale 73",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x1f1dd8c7d2cc653ed0df3190d1079bd75340a96f": {
     "label": "Whale 74",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x77c3c970d9afaa0007bace477d753d47122af05613": {
     "label": "Whale 75",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xe6e26c7f5cefae91b97d47f134c1bf59080ca612": {
     "label": "Whale 76",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x9783676286b932c6ca71ca96e8757104591a69c2": {
     "label": "Whale 77",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xc1c1e841584db414084e107dca2ad0ab7b0b0dfe7": {
     "label": "Whale 78",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x22e424bdb8d66f655c9f11dc66cdd3719a28ee1c": {
     "label": "Whale 79",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xda04fe43779d5b8d6801b3cb9421f48ce11bf0e7": {
     "label": "Whale 80",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xf5fe7d9cece0807e20a19e0daceca321f6e3e23d": {
     "label": "Whale 81",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x641b56cd1de0da37d6b7efdedcb7b277341c5433": {
     "label": "Whale 82",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x54520a0661afd0c6580ce45773097c0f8c2f6f80": {
     "label": "Whale 83",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0xebb1573b8bec894b06e0db3e5586563d908de7af": {
     "label": "Whale 84",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x05ab749a8554fb7c852238c271d384bae6798145": {
     "label": "Whale 85",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   },
   "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b": {
     "label": "Whale 86",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet"
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
+  },
+  "0x62f2cfa51f5bb138d344cdcfa26090c9184007f8": {
+    "label": "J",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
+  },
+  "0x1ed82a7b56bd3354a125992711bc56100c6f3aff": {
+    "label": "lester",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 5
+  },
+  "0xcd6482d6b4fd8f314384ad19f9e85ea0ce187445": {
+    "label": "beoakjj from j",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
+  },
+  "0x1bc0d88ca86b9049cf05d642e634836d5ddf4429": {
+    "label": "21212121",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
+  },
+  "0x37c1874a60d348903594a96703e0507c518fc53a": {
+    "label": "CemeterySun",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket smart wallet",
+    "min_trade_size_usd": 500
   }
 }
