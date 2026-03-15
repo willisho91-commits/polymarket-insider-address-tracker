@@ -119,6 +119,23 @@ def _process_wallet(wallet_addr: str, wallet_label: str) -> int:
     # Sort oldest-first so position ledger builds correctly
     trades.sort(key=lambda t: t["match_time"])
 
+    # ── Filter by price threshold ─────────────────────────────────────────────
+    # Skip trades where price >= $0.91 (user preference)
+    PRICE_THRESHOLD = 0.91
+    filtered_trades = []
+    for t in trades:
+        price = float(t.get("price", 0))
+        if price >= PRICE_THRESHOLD:
+            log.info("  Skipping trade @ $%.3f (above $%.2f threshold)", price, PRICE_THRESHOLD)
+            continue
+        filtered_trades.append(t)
+    trades = filtered_trades
+
+    if not trades:
+        log.info("  All trades filtered out (price >= $%.2f) for %s", PRICE_THRESHOLD, wallet_label)
+        state.set_last_checked_ts(wallet_addr, now_ts)
+        return 0
+
     # ── All positions for behavioural stats ───────────────────────────────────
     all_positions = state.get_all_open_positions(wallet_addr)
     # Also include all positions (open+closed) from full state
