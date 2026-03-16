@@ -126,9 +126,9 @@
     "min_trade_size_usd": 500
   },
   "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": {
-    "label": "Whale 22",
+    "label": "DrPufferfish - Top Trader #8",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 49.8% win rate, $6M PnL, 1505 trades",
     "min_trade_size_usd": 500
   },
   "0xd25c72ac0928385610611c8148803dc717334d20": {
@@ -687,6 +687,12 @@
     "label": "yjcr - Top Trader #96",
     "copy_multiplier": 1.0,
     "notes": "Polymarket top trader, 89.7% win rate, $1M PnL, 50 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": {
+    "label": "Jsram",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket trader",
     "min_trade_size_usd": 500
   }
 }
