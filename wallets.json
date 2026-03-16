@@ -294,9 +294,9 @@
     "min_trade_size_usd": 500
   },
   "0x000d257d2dc7616feaef4ae0f14600fdf50a758e": {
-    "label": "Whale 50",
+    "label": "scottilicious - Top Trader #65",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 84.6% win rate, $1.5M PnL, 1151 trades",
     "min_trade_size_usd": 500
   },
   "0x019782cab5d844f02bafb71f512758be78579f3c": {
@@ -306,27 +306,27 @@
     "min_trade_size_usd": 500
   },
   "0x5bffcf561bcae83af680ad600cb99f1184d6ffbe": {
-    "label": "Whale 52",
+    "label": "YatSen - Top Trader #33",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 69.9% win rate, $2.4M PnL, 826 trades",
     "min_trade_size_usd": 500
   },
   "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5": {
-    "label": "Whale 53",
+    "label": "bobe2 - Top Trader #62",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 87.5% win rate, $1.5M PnL, 1227 trades",
     "min_trade_size_usd": 500
   },
   "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1": {
-    "label": "Whale 54",
+    "label": "aenews2 - Top Trader #46",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 75% win rate, $2M PnL, 3631 trades",
     "min_trade_size_usd": 500
   },
   "0xd1acd3925d895de9aec98ff95f3a30c5279d08d5": {
-    "label": "Whale 55",
+    "label": "Kickstand7 - Top Trader #74",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 65.1% win rate, $1.4M PnL, 1864 trades",
     "min_trade_size_usd": 500
   },
   "0x7744bfd749a70020d16a1fcbac1d064761c9999e": {
@@ -540,9 +540,9 @@
     "min_trade_size_usd": 500
   },
   "0x37c1874a60d348903594a96703e0507c518fc53a": {
-    "label": "CemeterySun",
+    "label": "CemeterySun - Top Trader #37",
     "copy_multiplier": 1.0,
-    "notes": "Polymarket smart wallet",
+    "notes": "Polymarket top trader, 58.3% win rate, $2.2M PnL, 987 trades",
     "min_trade_size_usd": 500
   },
   "0x94a88422bca9af3db3045ddbe5f8f6d3be185204": {
@@ -573,6 +573,120 @@
     "label": "90k 政治新帳",
     "copy_multiplier": 0.5,
     "notes": "90k 政治新帳",
+    "min_trade_size_usd": 500
+  },
+  "0x56687bf447db6ffa42ffe2204a05edaa20f55839": {
+    "label": "Theo4 - Top Trader #1",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 88.9% win rate, $22M PnL, 22 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf": {
+    "label": "Fredi9999 - Top Trader #2",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 73.3% win rate, $16.6M PnL, 66 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x8119010a6e589062aa03583bb3f39ca632d9f887": {
+    "label": "PrincessCaro - Top Trader #7",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 100% win rate, $6.1M PnL, 21 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x17db3fcd93ba12d38382a0cade24b200185c5f6d": {
+    "label": "fengdubiying - Top Trader #26",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 69% win rate, $3.1M PnL, 123 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x343d4466dc323b850e5249394894c7381d91456e": {
+    "label": "tazcot - Top Trader #31",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 62.5% win rate, $2.6M PnL, 33 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x0b9cae2b0dfe7a71c413e0604eaac1c352f87e44": {
+    "label": "geniusMC - Top Trader #32",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 75.6% win rate, $2.6M PnL, 852 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xa9878e59934ab507f9039bcb917c1bae0451141d": {
+    "label": "ilovecircle - Top Trader #38",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 75% win rate, $2.2M PnL, 1534 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1": {
+    "label": "0x2a2C - Top Trader #52",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 55.9% win rate, $1.8M PnL, 860 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x3d1ecf16942939b3603c2539a406514a40b504d0": {
+    "label": "edenmoon - Top Trader #56",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 78.9% win rate, $1.7M PnL, 21 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xba664f999a18dce0aac6af698af434924a24f59d": {
+    "label": "bizyugo - Top Trader #68",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 74.1% win rate, $1.5M PnL, 30 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xe5c8026239919339b988fdb150a7ef4ea196d3e7": {
+    "label": "bama124 - Top Trader #70",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 76.1% win rate, $1.4M PnL, 144 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xf2f6af4f27ec2dcf4072095ab804016e14cd5817": {
+    "label": "gopfan2 - Top Trader #73",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 60.8% win rate, $1.4M PnL, 2277 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1": {
+    "label": "debased - Top Trader #75",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 66.3% win rate, $1.3M PnL, 7158 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x56813812fc837eedb614d8c231787f83a865e113": {
+    "label": "setsukoworldchampion2027 - Top Trader #77",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 56.5% win rate, $1.3M PnL, 29 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x7ee1b64be7016b0b0234ab6cabcaa689fd18dae8": {
+    "label": "0x9982 - Top Trader #80",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 56.9% win rate, $1.2M PnL, 66 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xbacd00c9080a82ded56f504ee8810af732b0ab35": {
+    "label": "ScottyNooo - Top Trader #82",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 59.7% win rate, $1.2M PnL, 4405 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x1d8a377c5020f612ce63a0a151970df64baae842": {
+    "label": "0x1D8A - Top Trader #86",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 65.2% win rate, $1.1M PnL, 96 trades",
+    "min_trade_size_usd": 500
+  },
+  "0xdbade4c82fb72780a0db9a38f821d8671aba9c95": {
+    "label": "SwissMiss - Top Trader #92",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 62.9% win rate, $1.1M PnL, 920 trades",
+    "min_trade_size_usd": 500
+  },
+  "0x8861f0bb5e0c19474ba73beeadc13ed8915beed6": {
+    "label": "yjcr - Top Trader #96",
+    "copy_multiplier": 1.0,
+    "notes": "Polymarket top trader, 89.7% win rate, $1M PnL, 50 trades",
     "min_trade_size_usd": 500
   }
 }
