@@ -544,5 +544,35 @@
     "copy_multiplier": 1.0,
     "notes": "Polymarket smart wallet",
     "min_trade_size_usd": 500
+  },
+  "0x94a88422bca9af3db3045ddbe5f8f6d3be185204": {
+    "label": "500k倒台 1",
+    "copy_multiplier": 0.5,
+    "notes": "合共500k倒台",
+    "min_trade_size_usd": 500
+  },
+  "0xab856ec4e602ba8ea4b2c1f99958230aa34a5da3": {
+    "label": "500k倒台 2",
+    "copy_multiplier": 0.5,
+    "notes": "合共500k倒台",
+    "min_trade_size_usd": 500
+  },
+  "0xbc961db7fc908735f34443f97ea78775deecb2a7": {
+    "label": "500k倒台 3",
+    "copy_multiplier": 0.5,
+    "notes": "合共500k倒台",
+    "min_trade_size_usd": 500
+  },
+  "0xb03b826a4fc9893b35d3ddf4f11be824525b6ca1": {
+    "label": "政治盤口88%",
+    "copy_multiplier": 0.5,
+    "notes": "政治盤口88%",
+    "min_trade_size_usd": 500
+  },
+  "0xa2536f292681daff7a048ab51fab6bdf81ecc48f": {
+    "label": "90k 政治新帳",
+    "copy_multiplier": 0.5,
+    "notes": "90k 政治新帳",
+    "min_trade_size_usd": 500
   }
 }
